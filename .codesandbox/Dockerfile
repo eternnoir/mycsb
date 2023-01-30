@@ -10,3 +10,6 @@ RUN cd /tmp \
     
 ENV PATH=$PATH:/usr/local/go/bin
 ENV GOPATH=/workspace/go
+
+RUN usermod -d /workspace root
+WORKDIR /workspace

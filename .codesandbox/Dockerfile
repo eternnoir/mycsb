@@ -9,3 +9,4 @@ RUN cd /tmp \
     && rm go1.19.5.linux-amd64.tar.gz 
     
 ENV PATH=$PATH:/usr/local/go/bin
+ENV GOPATH=/workspace/go

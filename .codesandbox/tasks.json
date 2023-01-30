@@ -4,9 +4,10 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "ls /usr/local": {
-      "name": "ls /usr/local",
-      "command": "ls /usr/local"
+    "go version": {
+      "name": "go version",
+      "command": "go version",
+      "runAtStart": true
     }
   }
 }
